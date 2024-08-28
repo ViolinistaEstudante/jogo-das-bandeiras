@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Adivinhar Bandeiras</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Jogo de Adivinhar Bandeiras</h1>
+        <div id="flag-container">
+            <img id="flag-image" src="" alt="Bandeira">
+        </div>
+        <div id="question-container">
+            <input type="text" id="answer" placeholder="Digite o nome do país">
+            <button onclick="checkAnswer()">Adivinhar</button>
+        </div>
+        <p id="feedback"></p>
+        <button id="next-button" onclick="loadNextFlag()" style="display: none;">Próxima Bandeira</button>
+        <p><i>Feito por Brendow Rodrigues - &copy; 2024</i></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
