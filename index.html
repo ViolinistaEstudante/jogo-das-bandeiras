@@ -5,10 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jogo de Adivinhar Bandeiras</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="logo.png">
 </head>
 <body>
     <div class="container">
         <h1>Jogo de Adivinhar Bandeiras</h1>
+        <div id="level-container">
+            <label for="level">Escolha o nível:</label>
+            <select id="level" onchange="changeLevel()">
+                <option value="easy">Fácil</option>
+                <option value="hard">Difícil</option>
+            </select>
+        </div>
         <div id="flag-container">
             <img id="flag-image" src="" alt="Bandeira">
         </div>

@@ -53,3 +53,7 @@ button:hover {
 #feedback {
     font-weight: bold;
 }
+
+#level-container {
+    padding-bottom: 15px;
+}
